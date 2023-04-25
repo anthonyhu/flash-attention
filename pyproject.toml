@@ -1,18 +1,3 @@
-[tool.usort]
-
-first_party_detection = false
-
-[tool.black]
-
-line-length = 120
-target-version = ["py39"]
-
-[tool.ufmt]
-
-excludes = [
-    "gallery",
-]
-
 [build-system]
 
 requires = ["einops", "packaging", "setuptools", "torch", "wheel"]
