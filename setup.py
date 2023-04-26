@@ -181,8 +181,6 @@ setup(
     cmdclass={"build_ext": BuildExtension} if ext_modules else {},
     python_requires=">=3.7",
     install_requires=[
-        "torch",
         "einops",
-        "packaging",
     ],
 )
