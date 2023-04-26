@@ -51,7 +51,7 @@ pip install flash-attn
 
 Alternatively you can compile from source:
 ```
-python setup.py install
+pip install .
 ```
 
 Interface: `src/flash_attention.py`
